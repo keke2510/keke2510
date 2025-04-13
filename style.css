@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('pic.jpg.jpg');
+    background-size: cover;
+    font-family: '黑体', sans-serif;
+}
+
+h1 {
+    color: #067ef7;
+}
+
+:root {
+    --primary-color: rgba(64, 99, 213, 0.3);
+}
+
+.card {
+    background: rgba(15, 192, 198, 0.2);
+    /*磨砂效果*/
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    box-shadow: 0 8px 32px 0 rgba(150, 164, 25, 0.5);
+    text-align: center;
+    position: relative;
+    top: 300px;
+    left: 20px;
+}
+
+#todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+#todo-list li {
+    background: rgba(237, 108, 239, 0.5);
+    margin: 10px 0;
+    padding: 10px 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-group {
+    display: flex;
+    justify-content: center;
+}
+
+#task-input {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px 0 0 10px;
+    outline: none;
+}
+
+#task-input:hover {
+    transform: scale(1.02);
+}
+
+.button {
+    width: 30%;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    transform: background-color 0.3s, transform 0.3s;
+}
+
+.button:hover {
+    background-color: rgb(255, 88, 88, 0.7);
+    transform: scale(1.02);
+}
+
+.delete-btn {
+    background-color: transparent;
+    border: none;
+    color: #e74c3c;
+    cursor: pointer;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.delete-btn:hover {
+    color: #def31d;
+    transform: scale(1.09);
+}
