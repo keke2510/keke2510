@@ -101,10 +101,6 @@ Java ☕
 
 <h2 style="color: white; margin-top: 60px; margin-bottom: 30px;">📚 研究项目</h2>
 
-</div>
-
-<div align="center">
-
 <!-- MIA-benchmark 卡片 -->
 <div style="
     background: rgba(255, 255, 255, 0.08);
@@ -195,6 +191,8 @@ Java ☕
 
 </div>
 
+</div>
+
 <div align="center">
 
 <h2 style="color: white; margin-top: 60px; margin-bottom: 30px;">📝 论文发表</h2>
@@ -267,6 +265,8 @@ Java ☕
 
 </div>
 
+</div>
+
 <div align="center">
 
 <h2 style="color: white; margin-top: 60px; margin-bottom: 30px;">📧 联系我</h2>
@@ -329,7 +329,7 @@ Java ☕
 ">keke2510</a>
 </div>
 
-<div align="center">
+</div>
 
 <!-- 分隔线 -->
 <div style="
@@ -341,11 +341,5 @@ Java ☕
 <p style="color: rgba(255, 255, 255, 0.5); margin: 0; font-size: 14px;">
 © 2025 胡景超 | 基于 Claude Code 设计
 </p>
-
-</div>
-
-</div>
-
-</div>
 
 </div>
