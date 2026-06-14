@@ -91,6 +91,66 @@ Java ☕
 </p>
 </div>
 
+<div align="center">
+
+<h2 style="color: white; margin-top: 60px; margin-bottom: 30px;">📚 研究项目</h2>
+
+</div>
+
+<div align="center">
+
+<!-- MIA-benchmark 卡片 -->
+<div style="
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+    padding: 30px;
+    max-width: 600px;
+    text-align: left;
+">
+
+<!-- 项目标题 -->
+<h3 style="color: white; margin: 0 0 10px 0;">
+🔬 MIA-benchmark
+</h3>
+
+<p style="color: rgba(255, 255, 255, 0.8); margin: 0 0 20px 0;">
+机器遗忘成员推理攻击评测框架
+</p>
+
+<!-- 核心亮点 -->
+<p style="color: rgba(255, 255, 255, 0.9); margin: 0 0 10px 0; font-weight: 600;">
+✨ 核心亮点：
+</p>
+
+<ul style="color: rgba(255, 255, 255, 0.8); margin: 0 0 20px 0; padding-left: 20px;">
+<li>五维度统一评测协议</li>
+<li>MISE防御方法（成员身份不可区分约束）</li>
+<li>CIFAR-10、GTSRB数据集验证</li>
+</ul>
+
+<!-- 链接按钮 -->
+<div style="display: flex; gap: 15px;">
+<a href="https://github.com/keke2510/MIA-benchmark" target="_blank" style="
+    background: rgba(255, 255, 255, 0.15);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+">🔗 GitHub</a>
+<a href="mailto:08235752@cumt.edu.cn" style="
+    background: rgba(255, 255, 255, 0.15);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+">📄 联系作者</a>
+</div>
+
+</div>
+
 </div>
 
 </div>
