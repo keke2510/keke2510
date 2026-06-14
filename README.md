@@ -267,6 +267,70 @@ Java ☕
 
 </div>
 
+<div align="center">
+
+<h2 style="color: white; margin-top: 60px; margin-bottom: 30px;">📧 联系我</h2>
+
+<!-- 联系卡片容器 -->
+<div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; margin-bottom: 40px;">
+
+<!-- 邮箱卡片 -->
+<div style="
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 20px;
+    width: 140px;
+    text-align: center;
+">
+<p style="color: white; margin: 0 0 8px 0; font-size: 14px; font-weight: 600;">
+📧 邮箱
+</p>
+<a href="mailto:08235752@cumt.edu.cn" style="
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    font-size: 13px;
+">08235752@cumt.edu.cn</a>
+</div>
+
+<!-- 学校卡片 -->
+<div style="
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 20px;
+    width: 140px;
+    text-align: center;
+">
+<p style="color: white; margin: 0 0 8px 0; font-size: 14px; font-weight: 600;">
+🎓 学校
+</p>
+<p style="color: rgba(255, 255, 255, 0.8); margin: 0; font-size: 13px;">
+中国矿业大学
+</p>
+</div>
+
+<!-- GitHub卡片 -->
+<div style="
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 20px;
+    width: 140px;
+    text-align: center;
+">
+<p style="color: white; margin: 0 0 8px 0; font-size: 14px; font-weight: 600;">
+🔗 GitHub
+</p>
+<a href="https://github.com/keke2510" target="_blank" style="
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    font-size: 13px;
+">keke2510</a>
+</div>
+
+</div>
+
 </div>
 
 </div>
