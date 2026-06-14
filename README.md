@@ -239,6 +239,36 @@ Java ☕
 
 </div>
 
+<div align="center">
+
+<h2 style="color: white; margin-top: 60px; margin-bottom: 30px;">🏆 竞赛荣誉</h2>
+
+<!-- 竞赛列表 -->
+<div style="
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+    padding: 30px;
+    max-width: 600px;
+    text-align: left;
+">
+
+<p style="color: rgba(255, 255, 255, 0.9); margin: 0 0 15px 0; font-size: 16px;">
+🥇 第十七届全国大学生数学竞赛（非数学类）江苏省一等奖
+</p>
+
+<p style="color: rgba(255, 255, 255, 0.9); margin: 0 0 15px 0; font-size: 16px;">
+🥇 第二十三届五一数学建模竞赛一等奖
+</p>
+
+<p style="color: rgba(255, 255, 255, 0.9); margin: 0; font-size: 16px;">
+🥉 第十九届中国国际学生创新大赛校赛三等奖
+</p>
+
+</div>
+
+</div>
+
 </div>
 
 </div>
