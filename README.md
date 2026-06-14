@@ -329,6 +329,19 @@ Java ☕
 ">keke2510</a>
 </div>
 
+<div align="center">
+
+<!-- 分隔线 -->
+<div style="
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 40px 0 30px 0;
+"></div>
+
+<!-- 页脚文字 -->
+<p style="color: rgba(255, 255, 255, 0.5); margin: 0; font-size: 14px;">
+© 2025 胡景超 | 基于 Claude Code 设计
+</p>
+
 </div>
 
 </div>
