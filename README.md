@@ -60,7 +60,6 @@ Machine Unlearning & Privacy Security Research
     padding: 15px 25px;
     text-align: center;
 ">
-<p style="color: rgba(255, 255, 255, 0.8); margin: 0; font-size: 14px;">研究方向</p>
 <p style="color: white; margin: 5px 0 0 0; font-size: 16px; font-weight: 600;">隐私攻击</p>
 </div>
 
@@ -71,7 +70,6 @@ Machine Unlearning & Privacy Security Research
     padding: 15px 25px;
     text-align: center;
 ">
-<p style="color: rgba(255, 255, 255, 0.8); margin: 0; font-size: 14px;">研究方向</p>
 <p style="color: white; margin: 5px 0 0 0; font-size: 16px; font-weight: 600;">防御方法</p>
 </div>
 
