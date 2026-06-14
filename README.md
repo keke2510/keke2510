@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Research-Interest-AI%20Security-blue?style=flat-square" alt="Research Interest">
   <img src="https://img.shields.io/badge/Focus-Machine%20Unloading-purple?style=flat-square" alt="Focus">
-  <img src="https://img.shields.io/badge/Status-Undergraduate-success?style=flat-square" alt="Status">
+  <img src="https://img.shields.io/badge/Research-Active-brightgreen?style=flat-square" alt="Status">
 </p>
 
 <div align="center">
@@ -358,13 +358,7 @@ MIA-benchmark: Machine Unlearning Attack Benchmark
 
 <div style="margin-bottom: 25px;">
 <p style="color: #60a5fa; margin: 0 0 10px 0; font-size: 15px; font-weight: 600;">🏫 教育背景</p>
-<p style="color: rgba(255, 255, 255, 0.9); margin: 0; font-size: 16px;">中国矿业大学（211）| 信息安全专业 | 2023级</p>
-<p style="color: rgba(255, 255, 255, 0.7); margin: 5px 0 0 0; font-size: 14px;">专业排名：前12% | GPA：87.37/100</p>
-</div>
-
-<div style="margin-bottom: 25px;">
-<p style="color: #34d399; margin: 0 0 10px 0; font-size: 15px; font-weight: 600;">📚 奖学金</p>
-<p style="color: rgba(255, 255, 255, 0.85); margin: 0; font-size: 15px;">国家励志奖学金 | 校级二等奖学金</p>
+<p style="color: rgba(255, 255, 255, 0.9); margin: 0; font-size: 16px;">中国矿业大学（211）| 信息安全专业</p>
 </div>
 
 </div>
