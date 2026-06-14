@@ -23,4 +23,74 @@
 
 </div>
 
+<div align="center">
+
+<!-- 技术栈区域 -->
+<h2 style="color: white; margin-bottom: 20px;">🛠️ 技术栈</h2>
+
+<!-- 技术卡片容器 -->
+<div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
+
+<!-- Python 卡片 -->
+<div style="
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 20px;
+    width: 120px;
+    text-align: center;
+    transition: all 0.3s ease;
+">
+<p style="color: white; margin: 0; font-size: 16px; font-weight: 600;">
+Python 🐍
+</p>
+</div>
+
+<!-- PyTorch 卡片 -->
+<div style="
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 20px;
+    width: 120px;
+    text-align: center;
+    transition: all 0.3s ease;
+">
+<p style="color: white; margin: 0; font-size: 16px; font-weight: 600;">
+PyTorch 🔥
+</p>
+</div>
+
+<!-- C++ 卡片 -->
+<div style="
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 20px;
+    width: 120px;
+    text-align: center;
+    transition: all 0.3s ease;
+">
+<p style="color: white; margin: 0; font-size: 16px; font-weight: 600;">
+C++ ⚡
+</p>
+</div>
+
+<!-- Java 卡片 -->
+<div style="
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 20px;
+    width: 120px;
+    text-align: center;
+    transition: all 0.3s ease;
+">
+<p style="color: white; margin: 0; font-size: 16px; font-weight: 600;">
+Java ☕
+</p>
+</div>
+
+</div>
+
 </div>
