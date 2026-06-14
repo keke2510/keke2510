@@ -26,7 +26,7 @@
     font-weight: 700;
     text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 ">
-👋 你好，我是胡景超
+👋 Hello! I'm HuJingchao
 </h1>
 
 <div style="margin: 30px 0;">
