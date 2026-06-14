@@ -23,6 +23,8 @@
 
 </div>
 
+</div>
+
 <div align="center">
 
 <!-- 技术栈区域 -->
@@ -91,6 +93,10 @@ Java ☕
 </p>
 </div>
 
+</div>
+
+</div>
+
 <div align="center">
 
 <h2 style="color: white; margin-top: 60px; margin-bottom: 30px;">📚 研究项目</h2>
@@ -147,6 +153,44 @@ Java ☕
     text-decoration: none;
     transition: all 0.3s ease;
 ">📄 联系作者</a>
+</div>
+
+</div>
+
+<!-- DeepCF 卡片 -->
+<div style="
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+    padding: 30px;
+    max-width: 600px;
+    text-align: left;
+    margin-top: 20px;
+">
+
+<!-- 项目标题 -->
+<h3 style="color: white; margin: 0 0 10px 0;">
+🏙️ DeepCF
+</h3>
+
+<p style="color: rgba(255, 255, 255, 0.8); margin: 0 0 20px 0;">
+基于图表示学习的城市消费辐射研究
+</p>
+
+<!-- 核心亮点 -->
+<p style="color: rgba(255, 255, 255, 0.9); margin: 0 0 10px 0; font-weight: 600;">
+✨ 核心亮点：
+</p>
+
+<ul style="color: rgba(255, 255, 255, 0.8); margin: 0 0 20px 0; padding-left: 20px;">
+<li>双层GCN模型 + BPR损失函数</li>
+<li>Top-K关键商户识别</li>
+<li>t-SNE嵌入可视化</li>
+</ul>
+
+<!-- 状态标签 -->
+<div style="display: inline-block; background: rgba(255, 193, 7, 0.2); color: #FFC107; padding: 5px 15px; border-radius: 20px; font-size: 14px;">
+🚧 省级创新训练项目
 </div>
 
 </div>
