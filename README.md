@@ -365,15 +365,6 @@ MIA-benchmark: Machine Unlearning Attack Benchmark
 </div>
 
 <div style="margin-bottom: 25px;">
-<p style="color: #fbbf24; margin: 0 0 10px 0; font-size: 15px; font-weight: 600;">🏆 竞赛荣誉</p>
-<p style="color: rgba(255, 255, 255, 0.85); margin: 0; font-size: 15px; line-height: 1.8;">
-• 全国大学生数学竞赛江苏省一等奖（非数学类）<br>
-• 五一数学建模竞赛一等奖<br>
-• 中国国际学生创新大赛校赛三等奖
-</p>
-</div>
-
-<div>
 <p style="color: #34d399; margin: 0 0 10px 0; font-size: 15px; font-weight: 600;">📚 奖学金</p>
 <p style="color: rgba(255, 255, 255, 0.85); margin: 0; font-size: 15px;">国家励志奖学金 | 校级二等奖学金</p>
 </div>
