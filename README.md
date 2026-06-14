@@ -195,6 +195,50 @@ Java ☕
 
 </div>
 
+<div align="center">
+
+<h2 style="color: white; margin-top: 60px; margin-bottom: 30px;">📝 论文发表</h2>
+
+<!-- 论文卡片 -->
+<div style="
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+    padding: 30px;
+    max-width: 600px;
+    text-align: left;
+">
+
+<p style="color: white; margin: 0 0 10px 0; font-size: 18px; font-weight: 600;">
+📄 MIA-benchmark相关论文
+</p>
+
+<p style="color: rgba(255, 255, 255, 0.9); margin: 0 0 10px 0;">
+《机器遗忘学习的成员推理攻击与防御方法研究》
+</p>
+
+<p style="color: rgba(255, 255, 255, 0.8); margin: 0 0 15px 0; font-size: 14px;">
+学生第一作者
+</p>
+
+<!-- 状态标签 -->
+<div style="display: inline-flex; align-items: center; gap: 8px; background: rgba(255, 193, 7, 0.2); color: #FFC107; padding: 8px 16px; border-radius: 20px; font-size: 14px; margin-bottom: 15px;">
+✍️ Cybersecurity期刊在投
+</div>
+
+<!-- GitHub链接 -->
+<p style="margin: 0;">
+<a href="https://github.com/keke2510/MIA-benchmark" target="_blank" style="
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
+">🔗 GitHub开源代码</a>
+</p>
+
+</div>
+
+</div>
+
 </div>
 
 </div>
