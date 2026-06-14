@@ -6,215 +6,202 @@
 
 <div align="center">
 
-<!-- 背景图片头部 -->
+<!-- 头部设计 -->
 <div style="
-    background: linear-gradient(135deg, #1e3a8a 0%, #3730a3 50%, #1e1b4b 100%);
-    padding: 80px 40px;
-    border-radius: 20px;
+    background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 25%, #3730a3 50%, #1e1b4b 75%, #0f172a 100%);
+    background-size: 400% 400%;
+    animation: gradientShift 15s ease infinite;
+    padding: 70px 40px;
+    border-radius: 24px;
     margin-bottom: 40px;
-    box-shadow: 0 10px 40px rgba(30, 58, 138, 0.3);
+    box-shadow: 0 20px 60px rgba(30, 58, 138, 0.4);
     position: relative;
     overflow: hidden;
 ">
 
-<!-- 装饰性背景元素 -->
+<!-- 装饰性网格背景 -->
 <div style="
     position: absolute;
-    top: -50%;
-    right: -10%;
-    width: 400px;
-    height: 400px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: 
+        linear-gradient(rgba(99, 102, 241, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(99, 102, 241, 0.03) 1px, transparent 1px);
+    background-size: 20px 20px;
+"></div>
+
+<!-- 装饰性光晕 -->
+<div style="
+    position: absolute;
+    top: -100px;
+    right: -100px;
+    width: 300px;
+    height: 300px;
     background: radial-gradient(circle, rgba(139, 92, 246, 0.15) 0%, transparent 70%);
     border-radius: 50%;
-    animation: float 6s ease-in-out infinite;
+    filter: blur(40px);
 "></div>
 
 <div style="
     position: absolute;
-    bottom: -30%;
-    left: -5%;
-    width: 300px;
-    height: 300px;
-    background: radial-gradient(circle, rgba(59, 130, 246, 0.1) 0%, transparent 70%);
+    bottom: -100px;
+    left: -100px;
+    width: 250px;
+    height: 250px;
+    background: radial-gradient(circle, rgba(59, 130, 246, 0.12) 0%, transparent 70%);
     border-radius: 50%;
-    animation: float 8s ease-in-out infinite reverse;
+    filter: blur(40px);
 "></div>
 
 <!-- 研究图标 -->
 <div style="
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     position: relative;
     z-index: 1;
 ">
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/machine-learning/machine-learning.png" alt="Machine Learning" style="width: 80px; height: 80px; margin: 0 15px; filter: brightness(0) invert(1);">
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/security/security.png" alt="Security" style="width: 80px; height: 80px; margin: 0 15px; filter: brightness(0) invert(1);">
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/python/python.png" alt="Python" style="width: 80px; height: 80px; margin: 0 15px; filter: brightness(0) invert(1);">
+<span style="font-size: 64px; margin: 0 15px; display: inline-block; animation: bounce 2s ease-in-out infinite;">🧠</span>
+<span style="font-size: 64px; margin: 0 15px; display: inline-block; animation: bounce 2s ease-in-out infinite 0.2s;">🔒</span>
+<span style="font-size: 64px; margin: 0 15px; display: inline-block; animation: bounce 2s ease-in-out infinite 0.4s;">⚡</span>
 </div>
 
 <h1 style="
     color: white;
-    margin: 30px 0 20px 0;
-    font-size: 46px;
-    font-weight: 700;
-    letter-spacing: -0.5px;
-    text-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+    margin: 20px 0 15px 0;
+    font-size: 44px;
+    font-weight: 800;
+    letter-spacing: -1px;
+    text-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
     position: relative;
     z-index: 1;
+    background: linear-gradient(135deg, #ffffff 0%, #e0e7ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 ">
-Machine Unlearning & Privacy Security Research
+Machine Unlearning & Privacy Security
 </h1>
 
 <p style="
-    color: rgba(255, 255, 255, 0.9);
-    margin: 20px 0 15px 0;
-    font-size: 22px;
+    color: rgba(255, 255, 255, 0.85);
+    margin: 15px 0 25px 0;
+    font-size: 18px;
     font-weight: 500;
     position: relative;
     z-index: 1;
+    letter-spacing: 0.5px;
 ">
-构建可信赖的AI系统 | 机器遗忘评测与防御 | 成员推理攻击研究
+构建可信赖的AI系统 · 机器遗忘评测与防御 · 成员推理攻击研究
 </p>
 
 <!-- 研究方向卡片 -->
 <div style="
     display: flex;
-    gap: 20px;
+    gap: 18px;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 35px;
     flex-wrap: wrap;
     position: relative;
     z-index: 1;
 ">
 
 <div style="
-    background: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
     border-radius: 16px;
-    padding: 20px 30px;
+    padding: 18px 28px;
     text-align: center;
     backdrop-filter: blur(10px);
     transition: all 0.3s ease;
+    min-width: 160px;
 ">
-<p style="color: rgba(255, 255, 255, 0.8); margin: 0; font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px;">研究方向</p>
-<p style="color: white; margin: 8px 0 0 0; font-size: 18px; font-weight: 700;">🔐 机器遗忘</p>
+<div style="font-size: 28px; margin-bottom: 8px;">🔐</div>
+<p style="color: rgba(255, 255, 255, 0.7); margin: 0; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px;">研究方向</p>
+<p style="color: white; margin: 6px 0 0 0; font-size: 17px; font-weight: 700;">机器遗忘</p>
 </div>
 
 <div style="
-    background: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
     border-radius: 16px;
-    padding: 20px 30px;
+    padding: 18px 28px;
     text-align: center;
     backdrop-filter: blur(10px);
     transition: all 0.3s ease;
+    min-width: 160px;
 ">
-<p style="color: rgba(255, 255, 255, 0.8); margin: 0; font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px;">研究方向</p>
-<p style="color: white; margin: 8px 0 0 0; font-size: 18px; font-weight: 700;">🎯 隐私攻击</p>
+<div style="font-size: 28px; margin-bottom: 8px;">🎯</div>
+<p style="color: rgba(255, 255, 255, 0.7); margin: 0; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px;">研究方向</p>
+<p style="color: white; margin: 6px 0 0 0; font-size: 17px; font-weight: 700;">隐私攻击</p>
 </div>
 
 <div style="
-    background: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
     border-radius: 16px;
-    padding: 20px 30px;
+    padding: 18px 28px;
     text-align: center;
     backdrop-filter: blur(10px);
     transition: all 0.3s ease;
+    min-width: 160px;
 ">
-<p style="color: rgba(255, 255, 255, 0.8); margin: 0; font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px;">研究方向</p>
-<p style="color: white; margin: 8px 0 0 0; font-size: 18px; font-weight: 700;">🛡️ 防御方法</p>
+<div style="font-size: 28px; margin-bottom: 8px;">🛡️</div>
+<p style="color: rgba(255, 255, 255, 0.7); margin: 0; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px;">研究方向</p>
+<p style="color: white; margin: 6px 0 0 0; font-size: 17px; font-weight: 700;">防御方法</p>
 </div>
 
 </div>
 
 </div>
 
-<!-- 研究框架示意图 -->
-<h2 style="
-    color: white;
-    margin-bottom: 30px;
-    font-size: 28px;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-">
-<span style="font-size: 32px;">🔬</span>
-<span>Research Framework</span>
-</h2>
-
-<!-- 框架图 -->
-<div style="
-    background: linear-gradient(135deg, rgba(30, 58, 138, 0.2), rgba(55, 48, 163, 0.2));
-    border: 1px solid rgba(99, 102, 241, 0.3);
-    border-radius: 20px;
-    padding: 40px;
-    max-width: 800px;
-    margin-bottom: 50px;
-    box-shadow: 0 8px 32px rgba(30, 58, 138, 0.25);
-">
-
+<!-- 统计卡片 -->
 <div style="
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
-    margin-bottom: 30px;
+    max-width: 800px;
+    margin: 0 auto 50px auto;
 ">
 
 <div style="
-    background: linear-gradient(135deg, #ef4444, #dc2626);
-    border-radius: 16px;
+    background: linear-gradient(135deg, rgba(239, 68, 68, 0.15), rgba(220, 38, 38, 0.15));
+    border: 1px solid rgba(239, 68, 68, 0.3);
+    border-radius: 18px;
     padding: 25px;
     text-align: center;
-    box-shadow: 0 4px 15px rgba(239, 68, 68, 0.3);
+    transition: all 0.3s ease;
 ">
-<p style="color: rgba(255, 255, 255, 0.9); margin: 0 0 10px 0; font-size: 13px; font-weight: 600;">攻击方法</p>
-<p style="color: white; margin: 0; font-size: 24px;">⚔️</p>
-<p style="color: rgba(255, 255, 255, 0.8); margin: 8px 0 0 0; font-size: 12px;">LiRA · REA · RULI</p>
+<div style="font-size: 36px; margin-bottom: 10px;">⚔️</div>
+<p style="color: #f87171; margin: 0 0 8px 0; font-size: 32px; font-weight: 800;">4+</p>
+<p style="color: rgba(255, 255, 255, 0.8); margin: 0; font-size: 15px; font-weight: 600;">攻击方法</p>
 </div>
 
 <div style="
-    background: linear-gradient(135deg, #3b82f6, #2563eb);
-    border-radius: 16px;
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.15), rgba(37, 99, 235, 0.15));
+    border: 1px solid rgba(59, 130, 246, 0.3);
+    border-radius: 18px;
     padding: 25px;
     text-align: center;
-    box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
+    transition: all 0.3s ease;
 ">
-<p style="color: rgba(255, 255, 255, 0.9); margin: 0 0 10px 0; font-size: 13px; font-weight: 600;">评测维度</p>
-<p style="color: white; margin: 0; font-size: 24px;">📊</p>
-<p style="color: rgba(255, 255, 255, 0.8); margin: 8px 0 0 0; font-size: 12px;">5个统一维度</p>
+<div style="font-size: 36px; margin-bottom: 10px;">📊</div>
+<p style="color: #60a5fa; margin: 0 0 8px 0; font-size: 32px; font-weight: 800;">5</p>
+<p style="color: rgba(255, 255, 255, 0.8); margin: 0; font-size: 15px; font-weight: 600;">评测维度</p>
 </div>
 
 <div style="
-    background: linear-gradient(135deg, #22c55e, #16a34a);
-    border-radius: 16px;
+    background: linear-gradient(135deg, rgba(34, 197, 94, 0.15), rgba(22, 163, 74, 0.15));
+    border: 1px solid rgba(34, 197, 94, 0.3);
+    border-radius: 18px;
     padding: 25px;
     text-align: center;
-    box-shadow: 0 4px 15px rgba(34, 197, 94, 0.3);
+    transition: all 0.3s ease;
 ">
-<p style="color: rgba(255, 255, 255, 0.9); margin: 0 0 10px 0; font-size: 13px; font-weight: 600;">防御策略</p>
-<p style="color: white; margin: 0; font-size: 24px;">🛡️</p>
-<p style="color: rgba(255, 255, 255, 0.8); margin: 8px 0 0 0; font-size: 12px;">MISE方法</p>
-</div>
-
-</div>
-
-<div style="
-    background: rgba(0, 0, 0, 0.2);
-    border-radius: 12px;
-    padding: 20px;
-    text-align: center;
-">
-<p style="
-    color: rgba(255, 255, 255, 0.9);
-    margin: 0;
-    font-size: 15px;
-    line-height: 1.8;
-">
-<strong style="color: #60a5fa;">统一评测协议</strong> → <strong style="color: #f87171;">攻击量化</strong> → <strong style="color: #34d399;">防御优化</strong>
-</p>
+<div style="font-size: 36px; margin-bottom: 10px;">🛡️</div>
+<p style="color: #34d399; margin: 0 0 8px 0; font-size: 32px; font-weight: 800;">1</p>
+<p style="color: rgba(255, 255, 255, 0.8); margin: 0; font-size: 15px; font-weight: 600;">防御策略</p>
 </div>
 
 </div>
@@ -223,64 +210,75 @@ Machine Unlearning & Privacy Security Research
 <h2 style="
     color: white;
     margin-bottom: 30px;
-    font-size: 26px;
-    font-weight: 600;
-">🎯 Research Focus</h2>
+    font-size: 28px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+">
+<span style="font-size: 32px;">🎯</span>
+<span>Research Focus</span>
+</h2>
 
 <div style="
-    background: rgba(30, 58, 138, 0.15);
+    background: linear-gradient(135deg, rgba(30, 58, 138, 0.2), rgba(55, 48, 163, 0.2));
     border: 1px solid rgba(99, 102, 241, 0.3);
-    border-radius: 16px;
-    padding: 30px;
-    max-width: 700px;
+    border-radius: 20px;
+    padding: 35px;
+    max-width: 750px;
     text-align: left;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
+    box-shadow: 0 10px 40px rgba(30, 58, 138, 0.25);
 ">
 
 <p style="
-    color: rgba(255, 255, 255, 0.9);
-    margin: 0;
-    font-size: 17px;
+    color: rgba(255, 255, 255, 0.95);
+    margin: 0 0 25px 0;
+    font-size: 18px;
     line-height: 1.8;
+    font-weight: 500;
 ">
-我的研究聚焦于<strong>机器学习安全</strong>领域，特别是<strong>机器遗忘（Machine Unlearning）</strong>中的隐私保护问题。我致力于构建统一的评测框架，量化不同遗忘方法的隐私泄露风险，并提出有效的防御策略。
+研究聚焦于<strong>机器学习安全</strong>领域，特别是<strong>机器遗忘（Machine Unlearning）</strong>中的隐私保护问题。致力于构建统一的评测框架，量化不同遗忘方法的隐私泄露风险，并提出有效的防御策略。
 </p>
 
 <div style="
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 15px;
-    margin-top: 25px;
+    gap: 18px;
 ">
 
 <div style="
-    background: rgba(59, 130, 246, 0.1);
-    border-left: 3px solid #3b82f6;
-    padding: 15px;
-    border-radius: 8px;
+    background: rgba(59, 130, 246, 0.12);
+    border-left: 4px solid #3b82f6;
+    padding: 18px 20px;
+    border-radius: 12px;
 ">
-<p style="color: rgba(255, 255, 255, 0.8); margin: 0 0 8px 0; font-size: 14px; font-weight: 600;">🔍 风险量化</p>
-<p style="color: rgba(255, 255, 255, 0.7); margin: 0; font-size: 13px;">隐私泄露评估</p>
+<p style="color: #60a5fa; margin: 0 0 10px 0; font-size: 24px;">🔍</p>
+<p style="color: rgba(255, 255, 255, 0.9); margin: 0 0 6px 0; font-size: 15px; font-weight: 700;">风险量化</p>
+<p style="color: rgba(255, 255, 255, 0.7); margin: 0; font-size: 14px;">隐私泄露评估</p>
 </div>
 
 <div style="
-    background: rgba(239, 68, 68, 0.1);
-    border-left: 3px solid #ef4444;
-    padding: 15px;
-    border-radius: 8px;
+    background: rgba(239, 68, 68, 0.12);
+    border-left: 4px solid #ef4444;
+    padding: 18px 20px;
+    border-radius: 12px;
 ">
-<p style="color: rgba(255, 255, 255, 0.8); margin: 0 0 8px 0; font-size: 14px; font-weight: 600;">⚔️ 攻击防御</p>
-<p style="color: rgba(255, 255, 255, 0.7); margin: 0; font-size: 13px;">成员推理抵御</p>
+<p style="color: #f87171; margin: 0 0 10px 0; font-size: 24px;">⚔️</p>
+<p style="color: rgba(255, 255, 255, 0.9); margin: 0 0 6px 0; font-size: 15px; font-weight: 700;">攻击防御</p>
+<p style="color: rgba(255, 255, 255, 0.7); margin: 0; font-size: 14px;">成员推理抵御</p>
 </div>
 
 <div style="
-    background: rgba(34, 197, 94, 0.1);
-    border-left: 3px solid #22c55e;
-    padding: 15px;
-    border-radius: 8px;
+    background: rgba(34, 197, 94, 0.12);
+    border-left: 4px solid #22c55e;
+    padding: 18px 20px;
+    border-radius: 12px;
 ">
-<p style="color: rgba(255, 255, 255, 0.8); margin: 0 0 8px 0; font-size: 14px; font-weight: 600;">⚖️ 效率平衡</p>
-<p style="color: rgba(255, 255, 255, 0.7); margin: 0; font-size: 13px;">实用性vs隐私</p>
+<p style="color: #34d399; margin: 0 0 10px 0; font-size: 24px;">⚖️</p>
+<p style="color: rgba(255, 255, 255, 0.9); margin: 0 0 6px 0; font-size: 15px; font-weight: 700;">效率平衡</p>
+<p style="color: rgba(255, 255, 255, 0.7); margin: 0; font-size: 14px;">实用性vs隐私</p>
 </div>
 
 </div>
@@ -292,34 +290,32 @@ Machine Unlearning & Privacy Security Research
     color: white;
     margin-bottom: 30px;
     font-size: 28px;
-    font-weight: 600;
+    font-weight: 700;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    gap: 12px;
 ">
 <span style="font-size: 32px;">📂</span>
 <span>Featured Project</span>
 </h2>
 
 <div style="
-    background: linear-gradient(135deg, rgba(30, 58, 138, 0.2), rgba(55, 48, 163, 0.2));
-    border: 1px solid rgba(99, 102, 241, 0.3);
-    border-radius: 20px;
-    padding: 40px;
-    max-width: 750px;
-    text-align: left;
+    background: linear-gradient(135deg, rgba(30, 58, 138, 0.25), rgba(55, 48, 163, 0.25));
+    border: 1px solid rgba(99, 102, 241, 0.35);
+    border-radius: 24px;
+    padding: 0;
+    max-width: 800px;
     margin-bottom: 50px;
-    box-shadow: 0 8px 32px rgba(30, 58, 138, 0.25);
+    box-shadow: 0 15px 50px rgba(30, 58, 138, 0.3);
+    overflow: hidden;
 ">
 
-<!-- 项目预览图占位 -->
+<!-- 项目头部 -->
 <div style="
-    background: linear-gradient(135deg, #1e3a8a, #3730a3);
-    border-radius: 16px;
-    padding: 60px 40px;
+    background: linear-gradient(135deg, #1e3a8a, #3730a3, #1e1b4b);
+    padding: 50px 40px;
     text-align: center;
-    margin-bottom: 30px;
     position: relative;
     overflow: hidden;
 ">
@@ -330,19 +326,23 @@ Machine Unlearning & Privacy Security Research
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><defs><pattern id=\"grid\" width=\"10\" height=\"10\" patternUnits=\"userSpaceOnUse\"><path d=\"M 10 0 L 0 0 0 10\" fill=\"none\" stroke=\"rgba(255,255,255,0.05)\" stroke-width=\"0.5\"/></pattern></defs><rect width=\"100\" height=\"100\" fill=\"url(%23grid)\"/></svg>');
-    opacity: 0.3;
+    background: radial-gradient(circle at 20% 50%, rgba(139, 92, 246, 0.2) 0%, transparent 50%),
+                radial-gradient(circle at 80% 50%, rgba(59, 130, 246, 0.2) 0%, transparent 50%);
 "></div>
 
 <div style="position: relative; z-index: 1;">
-<p style="color: rgba(255, 255, 255, 0.7); margin: 0; font-size: 16px; letter-spacing: 2px;">MIA-BENCHMARK</p>
-<h3 style="color: white; margin: 15px 0 10px 0; font-size: 32px; font-weight: 700;">统一评测框架</h3>
+<div style="font-size: 56px; margin-bottom: 15px;">🔬</div>
+<p style="color: rgba(255, 255, 255, 0.7); margin: 0; font-size: 14px; letter-spacing: 3px; font-weight: 600;">MIA-BENCHMARK</p>
+<h3 style="color: white; margin: 15px 0 8px 0; font-size: 36px; font-weight: 800;">统一评测框架</h3>
 <p style="color: rgba(255, 255, 255, 0.8); margin: 0; font-size: 16px;">Machine Unlearning Attack Benchmark</p>
 </div>
 
 </div>
 
-<div style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
+<!-- 项目内容 -->
+<div style="padding: 35px 40px;">
+
+<div style="display: flex; align-items: center; gap: 12px; margin-bottom: 20px; flex-wrap: wrap;">
 <div style="
     background: linear-gradient(135deg, #3b82f6, #8b5cf6);
     color: white;
@@ -358,14 +358,22 @@ Machine Unlearning & Privacy Security Research
     padding: 8px 16px;
     border-radius: 20px;
     font-size: 12px;
-    font-weight: 600;
-">开源项目</div>
+    font-weight: 700;
+">🌟 开源</div>
+<div style="
+    background: rgba(251, 191, 36, 0.2);
+    color: #fbbf24;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+">📊 研究工具</div>
 </div>
 
 <h3 style="
     color: white;
-    margin: 0 0 15px 0;
-    font-size: 26px;
+    margin: 0 0 18px 0;
+    font-size: 24px;
     font-weight: 700;
 ">
 MIA-benchmark: Machine Unlearning Attack Benchmark
@@ -373,7 +381,7 @@ MIA-benchmark: Machine Unlearning Attack Benchmark
 
 <p style="
     color: rgba(255, 255, 255, 0.85);
-    margin: 0 0 20px 0;
+    margin: 0 0 25px 0;
     font-size: 16px;
     line-height: 1.7;
 ">
@@ -383,28 +391,31 @@ MIA-benchmark: Machine Unlearning Attack Benchmark
 <div style="
     background: rgba(59, 130, 246, 0.15);
     border-left: 4px solid #3b82f6;
-    padding: 18px 24px;
+    padding: 20px 25px;
     margin: 25px 0;
-    border-radius: 10px;
+    border-radius: 12px;
 ">
 <p style="
     color: rgba(255, 255, 255, 0.95);
     margin: 0;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.7;
     font-weight: 500;
 ">
-<strong>研究贡献：</strong> 构建了五维度统一评测协议，首次系统性地评估了不同遗忘方法在样本级场景下的隐私风险，提出了基于成员身份不可区分约束的防御策略。
+<strong style="color: #60a5fa;">研究贡献：</strong> 构建了五维度统一评测协议，首次系统性地评估了不同遗忘方法在样本级场景下的隐私风险，提出了基于成员身份不可区分约束的防御策略。
 </p>
 </div>
 
-<!-- 技术栈标签 -->
-<div style="display: flex; gap: 10px; flex-wrap: wrap; margin: 25px 0;">
-<div style="background: rgba(59, 130, 246, 0.2); color: #60a5fa; padding: 6px 14px; border-radius: 15px; font-size: 12px; font-weight: 600;">Python</div>
-<div style="background: rgba(239, 68, 68, 0.2); color: #f87171; padding: 6px 14px; border-radius: 15px; font-size: 12px; font-weight: 600;">PyTorch</div>
-<div style="background: rgba(34, 197, 94, 0.2); color: #34d399; padding: 6px 14px; border-radius: 15px; font-size: 12px; font-weight: 600;">Machine Learning</div>
-<div style="background: rgba(168, 85, 247, 0.2); color: #a78bfa; padding: 6px 14px; border-radius: 15px; font-size: 12px; font-weight: 600;">Privacy</div>
-<div style="background: rgba(251, 191, 36, 0.2); color: #fbbf24; padding: 6px 14px; border-radius: 15px; font-size: 12px; font-weight: 600;">Security</div>
+<!-- 技术栈 -->
+<div style="margin: 30px 0;">
+<p style="color: rgba(255, 255, 255, 0.7); margin: 0 0 15px 0; font-size: 14px; font-weight: 600; letter-spacing: 1px;">技术栈</p>
+<div style="display: flex; gap: 12px; flex-wrap: wrap;">
+<div style="background: rgba(59, 130, 246, 0.2); color: #60a5fa; padding: 8px 18px; border-radius: 20px; font-size: 13px; font-weight: 600;">🐍 Python</div>
+<div style="background: rgba(239, 68, 68, 0.2); color: #f87171; padding: 8px 18px; border-radius: 20px; font-size: 13px; font-weight: 600;">🔥 PyTorch</div>
+<div style="background: rgba(34, 197, 94, 0.2); color: #34d399; padding: 8px 18px; border-radius: 20px; font-size: 13px; font-weight: 600;">🧠 ML</div>
+<div style="background: rgba(168, 85, 247, 0.2); color: #a78bfa; padding: 8px 18px; border-radius: 20px; font-size: 13px; font-weight: 600;">🔐 Privacy</div>
+<div style="background: rgba(251, 191, 36, 0.2); color: #fbbf24; padding: 8px 18px; border-radius: 20px; font-size: 13px; font-weight: 600;">🛡️ Security</div>
+</div>
 </div>
 
 <div style="display: flex; gap: 15px; margin-top: 30px; flex-wrap: wrap;">
@@ -412,21 +423,21 @@ MIA-benchmark: Machine Unlearning Attack Benchmark
     background: linear-gradient(135deg, #3b82f6, #8b5cf6);
     color: white;
     padding: 14px 32px;
-    border-radius: 12px;
+    border-radius: 14px;
     text-decoration: none;
     font-weight: 700;
     font-size: 15px;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);
+    box-shadow: 0 6px 20px rgba(59, 130, 246, 0.4);
     display: inline-flex;
     align-items: center;
-    gap: 8px;
+    gap: 10px;
 ">🔗 GitHub Repository</a>
 <a href="https://github.com/keke2510/MIA-benchmark/stargazers" target="_blank" style="
-    background: rgba(255, 255, 255, 0.15);
+    background: rgba(255, 255, 255, 0.1);
     color: white;
     padding: 14px 32px;
-    border-radius: 12px;
+    border-radius: 14px;
     text-decoration: none;
     font-weight: 700;
     font-size: 15px;
@@ -434,8 +445,10 @@ MIA-benchmark: Machine Unlearning Attack Benchmark
     transition: all 0.3s ease;
     display: inline-flex;
     align-items: center;
-    gap: 8px;
-">⭐ Star on GitHub</a>
+    gap: 10px;
+">⭐ Star Project</a>
+</div>
+
 </div>
 
 </div>
@@ -445,49 +458,53 @@ MIA-benchmark: Machine Unlearning Attack Benchmark
     color: white;
     margin-bottom: 30px;
     font-size: 28px;
-    font-weight: 600;
+    font-weight: 700;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    gap: 12px;
 ">
 <span style="font-size: 32px;">📝</span>
 <span>Publications</span>
 </h2>
 
 <div style="
-    background: linear-gradient(135deg, rgba(245, 158, 11, 0.15), rgba(234, 88, 12, 0.15));
-    border: 1px solid rgba(245, 158, 11, 0.3);
-    border-radius: 20px;
-    padding: 40px;
-    max-width: 750px;
-    text-align: left;
+    background: linear-gradient(135deg, rgba(245, 158, 11, 0.18), rgba(234, 88, 12, 0.18));
+    border: 1px solid rgba(245, 158, 11, 0.35);
+    border-radius: 24px;
+    padding: 0;
+    max-width: 800px;
     margin-bottom: 50px;
-    box-shadow: 0 8px 32px rgba(245, 158, 11, 0.2);
+    box-shadow: 0 15px 50px rgba(245, 158, 11, 0.25);
+    overflow: hidden;
 ">
 
-<!-- 论文图标 -->
+<!-- 论文头部 -->
 <div style="
-    background: linear-gradient(135deg, #f59e0b, #ea580c);
-    border-radius: 16px;
-    padding: 50px 40px;
+    background: linear-gradient(135deg, #ea580c, #dc2626);
+    padding: 45px 40px;
     text-align: center;
-    margin-bottom: 30px;
+    position: relative;
 ">
-<p style="color: rgba(255, 255, 255, 0.8); margin: 0; font-size: 48px;">📄</p>
-<p style="color: white; margin: 15px 0 0 0; font-size: 18px; font-weight: 600;">学术论文</p>
+<div style="font-size: 52px; margin-bottom: 12px;">📄</div>
+<p style="color: rgba(255, 255, 255, 0.9); margin: 0; font-size: 18px; font-weight: 700;">学术论文</p>
+<p style="color: rgba(255, 255, 255, 0.7); margin: 8px 0 0 0; font-size: 14px;">Academic Paper</p>
 </div>
 
-<div style="display: flex; align-items: flex-start; gap: 20px;">
+<!-- 论文内容 -->
+<div style="padding: 35px 40px;">
+
+<div style="display: flex; align-items: flex-start; gap: 18px;">
 <div style="
     background: rgba(245, 158, 11, 0.25);
-    padding: 10px 18px;
-    border-radius: 10px;
+    padding: 10px 20px;
+    border-radius: 12px;
     color: #fbbf24;
     font-size: 13px;
     font-weight: 700;
     white-space: nowrap;
     letter-spacing: 0.5px;
+    flex-shrink: 0;
 ">学生第一作者</div>
 
 <div style="flex: 1;">
@@ -496,12 +513,13 @@ MIA-benchmark: Machine Unlearning Attack Benchmark
     margin: 0 0 15px 0;
     font-size: 22px;
     font-weight: 700;
+    line-height: 1.4;
 ">
 《机器遗忘学习的成员推理攻击与防御方法研究》
 </h3>
 
 <p style="
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.85);
     margin: 0 0 20px 0;
     font-size: 16px;
     line-height: 1.7;
@@ -513,13 +531,13 @@ MIA-benchmark: Machine Unlearning Attack Benchmark
 <div style="
     background: rgba(34, 197, 94, 0.25);
     color: #34d399;
-    padding: 8px 18px;
+    padding: 10px 20px;
     border-radius: 25px;
     font-size: 13px;
     font-weight: 700;
     display: inline-flex;
     align-items: center;
-    gap: 6px;
+    gap: 8px;
 ">
 <span style="font-size: 16px;">🔄</span>
 Cybersecurity 期刊在投
@@ -528,11 +546,13 @@ Cybersecurity 期刊在投
     color: #60a5fa;
     text-decoration: none;
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 700;
     display: inline-flex;
     align-items: center;
-    gap: 6px;
+    gap: 8px;
 ">🔗 GitHub代码库</a>
+</div>
+
 </div>
 
 </div>
@@ -546,11 +566,11 @@ Cybersecurity 期刊在投
     color: white;
     margin-bottom: 30px;
     font-size: 28px;
-    font-weight: 600;
+    font-weight: 700;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    gap: 12px;
 ">
 <span style="font-size: 32px;">💻</span>
 <span>Technical Expertise</span>
@@ -560,69 +580,73 @@ Cybersecurity 期刊在投
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 25px;
-    max-width: 800px;
+    max-width: 850px;
     margin-bottom: 50px;
 ">
 
 <div style="
-    background: linear-gradient(135deg, rgba(59, 130, 246, 0.15), rgba(37, 99, 235, 0.15));
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.18), rgba(37, 99, 235, 0.18));
     border: 1px solid rgba(59, 130, 246, 0.3);
-    border-radius: 16px;
-    padding: 25px;
+    border-radius: 20px;
+    padding: 28px;
     transition: all 0.3s ease;
+    text-align: center;
 ">
-<div style="font-size: 32px; margin-bottom: 12px;">🐍</div>
-<p style="color: #60a5fa; margin: 0 0 12px 0; font-size: 14px; font-weight: 700;">编程语言</p>
-<p style="color: rgba(255, 255, 255, 0.9); margin: 0; font-size: 16px;">Python, C++, Java</p>
-<div style="margin-top: 15px; display: flex; gap: 8px;">
-<div style="background: rgba(59, 130, 246, 0.2); padding: 4px 10px; border-radius: 8px; font-size: 11px; color: #60a5fa;">PyTorch</div>
-<div style="background: rgba(59, 130, 246, 0.2); padding: 4px 10px; border-radius: 8px; font-size: 11px; color: #60a5fa;">NumPy</div>
+<div style="font-size: 48px; margin-bottom: 15px;">🐍</div>
+<p style="color: #60a5fa; margin: 0 0 15px 0; font-size: 15px; font-weight: 700; letter-spacing: 1px;">编程语言</p>
+<p style="color: rgba(255, 255, 255, 0.95); margin: 0 0 15px 0; font-size: 17px; font-weight: 600;">Python, C++, Java</p>
+<div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
+<div style="background: rgba(59, 130, 246, 0.25); padding: 6px 14px; border-radius: 12px; font-size: 12px; color: #60a5fa; font-weight: 600;">PyTorch</div>
+<div style="background: rgba(59, 130, 246, 0.25); padding: 6px 14px; border-radius: 12px; font-size: 12px; color: #60a5fa; font-weight: 600;">NumPy</div>
 </div>
 </div>
 
 <div style="
-    background: linear-gradient(135deg, rgba(239, 68, 68, 0.15), rgba(220, 38, 38, 0.15));
+    background: linear-gradient(135deg, rgba(239, 68, 68, 0.18), rgba(220, 38, 38, 0.18));
     border: 1px solid rgba(239, 68, 68, 0.3);
-    border-radius: 16px;
-    padding: 25px;
+    border-radius: 20px;
+    padding: 28px;
     transition: all 0.3s ease;
+    text-align: center;
 ">
-<div style="font-size: 32px; margin-bottom: 12px;">🧠</div>
-<p style="color: #f87171; margin: 0 0 12px 0; font-size: 14px; font-weight: 700;">深度学习</p>
-<p style="color: rgba(255, 255, 255, 0.9); margin: 0; font-size: 16px;">模型训练与优化</p>
-<div style="margin-top: 15px; display: flex; gap: 8px;">
-<div style="background: rgba(239, 68, 68, 0.2); padding: 4px 10px; border-radius: 8px; font-size: 11px; color: #f87171;">CNN</div>
-<div style="background: rgba(239, 68, 68, 0.2); padding: 4px 10px; border-radius: 8px; font-size: 11px; color: #f87171;">RNN</div>
+<div style="font-size: 48px; margin-bottom: 15px;">🧠</div>
+<p style="color: #f87171; margin: 0 0 15px 0; font-size: 15px; font-weight: 700; letter-spacing: 1px;">深度学习</p>
+<p style="color: rgba(255, 255, 255, 0.95); margin: 0 0 15px 0; font-size: 17px; font-weight: 600;">模型训练与优化</p>
+<div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
+<div style="background: rgba(239, 68, 68, 0.25); padding: 6px 14px; border-radius: 12px; font-size: 12px; color: #f87171; font-weight: 600;">CNN</div>
+<div style="background: rgba(239, 68, 68, 0.25); padding: 6px 14px; border-radius: 12px; font-size: 12px; color: #f87171; font-weight: 600;">RNN</div>
 </div>
 </div>
 
 <div style="
-    background: linear-gradient(135deg, rgba(34, 197, 94, 0.15), rgba(22, 163, 74, 0.15));
+    background: linear-gradient(135deg, rgba(34, 197, 94, 0.18), rgba(22, 163, 74, 0.18));
     border: 1px solid rgba(34, 197, 94, 0.3);
-    border-radius: 16px;
-    padding: 25px;
+    border-radius: 20px;
+    padding: 28px;
     transition: all 0.3s ease;
+    text-align: center;
 ">
-<div style="font-size: 32px; margin-bottom: 12px;">🔐</div>
-<p style="color: #34d399; margin: 0 0 12px 0; font-size: 14px; font-weight: 700;">安全领域</p>
-<p style="color: rgba(255, 255, 255, 0.9); margin: 0; font-size: 16px;">密码学, 网络安全</p>
-<div style="margin-top: 15px; display: flex; gap: 8px;">
-<div style="background: rgba(34, 197, 94, 0.2); padding: 4px 10px; border-radius: 8px; font-size: 11px; color: #34d399;">差分隐私</div>
+<div style="font-size: 48px; margin-bottom: 15px;">🔐</div>
+<p style="color: #34d399; margin: 0 0 15px 0; font-size: 15px; font-weight: 700; letter-spacing: 1px;">安全领域</p>
+<p style="color: rgba(255, 255, 255, 0.95); margin: 0 0 15px 0; font-size: 17px; font-weight: 600;">密码学, 网络安全</p>
+<div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
+<div style="background: rgba(34, 197, 94, 0.25); padding: 6px 14px; border-radius: 12px; font-size: 12px; color: #34d399; font-weight: 600;">差分隐私</div>
 </div>
 </div>
 
 <div style="
-    background: linear-gradient(135deg, rgba(168, 85, 247, 0.15), rgba(139, 92, 246, 0.15));
+    background: linear-gradient(135deg, rgba(168, 85, 247, 0.18), rgba(139, 92, 246, 0.18));
     border: 1px solid rgba(168, 85, 247, 0.3);
-    border-radius: 16px;
-    padding: 25px;
+    border-radius: 20px;
+    padding: 28px;
     transition: all 0.3s ease;
+    text-align: center;
 ">
-<div style="font-size: 32px; margin-bottom: 12px;">📚</div>
-<p style="color: #a78bfa; margin: 0 0 12px 0; font-size: 14px; font-weight: 700;">研究工具</p>
-<p style="color: rgba(255, 255, 255, 0.9); margin: 0; font-size: 16px;">LaTeX, Zotero, Git</p>
-<div style="margin-top: 15px; display: flex; gap: 8px;">
-<div style="background: rgba(168, 85, 247, 0.2); padding: 4px 10px; border-radius: 8px; font-size: 11px; color: #a78bfa;">Overleaf</div>
+<div style="font-size: 48px; margin-bottom: 15px;">📚</div>
+<p style="color: #a78bfa; margin: 0 0 15px 0; font-size: 15px; font-weight: 700; letter-spacing: 1px;">研究工具</p>
+<p style="color: rgba(255, 255, 255, 0.95); margin: 0 0 15px 0; font-size: 17px; font-weight: 600;">LaTeX, Zotero, Git</p>
+<div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
+<div style="background: rgba(168, 85, 247, 0.25); padding: 6px 14px; border-radius: 12px; font-size: 12px; color: #a78bfa; font-weight: 600;">Overleaf</div>
 </div>
 </div>
 
@@ -633,56 +657,99 @@ Cybersecurity 期刊在投
     color: white;
     margin-bottom: 30px;
     font-size: 28px;
-    font-weight: 600;
+    font-weight: 700;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    gap: 12px;
 ">
 <span style="font-size: 32px;">🎓</span>
 <span>Academic Background</span>
 </h2>
 
 <div style="
-    background: linear-gradient(135deg, rgba(30, 58, 138, 0.15), rgba(55, 48, 163, 0.15));
-    border: 1px solid rgba(99, 102, 241, 0.25);
-    border-radius: 20px;
-    padding: 35px;
-    max-width: 750px;
-    text-align: left;
+    background: linear-gradient(135deg, rgba(30, 58, 138, 0.18), rgba(55, 48, 163, 0.18));
+    border: 1px solid rgba(99, 102, 241, 0.3);
+    border-radius: 24px;
+    padding: 0;
+    max-width: 800px;
     margin-bottom: 50px;
+    box-shadow: 0 15px 50px rgba(30, 58, 138, 0.25);
+    overflow: hidden;
 ">
 
-<!-- 学校卡片 -->
+<!-- 学校头部 -->
 <div style="
-    background: linear-gradient(135deg, rgba(59, 130, 246, 0.2), rgba(99, 102, 241, 0.2));
-    border-radius: 16px;
-    padding: 30px;
+    background: linear-gradient(135deg, #1e3a8a, #3730a3);
+    padding: 50px 40px;
     text-align: center;
-    margin-bottom: 25px;
+    position: relative;
 ">
 
-<p style="color: rgba(255, 255, 255, 0.7); margin: 0; font-size: 14px; letter-spacing: 2px;">教育背景</p>
-<p style="color: white; margin: 15px 0 10px 0; font-size: 28px; font-weight: 700;">中国矿业大学</p>
-<p style="color: rgba(255, 255, 255, 0.8); margin: 0; font-size: 18px;">211工程 | 信息安全专业</p>
+<div style="
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at 50% 30%, rgba(99, 102, 241, 0.2) 0%, transparent 60%);
+"></div>
 
-<div style="display: flex; justify-content: center; gap: 15px; margin-top: 20px;">
+<div style="position: relative; z-index: 1;">
+<div style="font-size: 56px; margin-bottom: 15px;">🏫</div>
+<p style="color: rgba(255, 255, 255, 0.7); margin: 0; font-size: 14px; letter-spacing: 3px; font-weight: 600;">教育背景</p>
+<h3 style="color: white; margin: 15px 0 10px 0; font-size: 32px; font-weight: 800;">中国矿业大学</h3>
+<p style="color: rgba(255, 255, 255, 0.85); margin: 0; font-size: 18px;">211工程 · 信息安全专业</p>
+</div>
+
+</div>
+
+<!-- 学校内容 -->
+<div style="padding: 35px 40px;">
+
+<div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
 <div style="
     background: rgba(59, 130, 246, 0.2);
-    padding: 8px 16px;
-    border-radius: 10px;
-    font-size: 13px;
+    padding: 10px 22px;
+    border-radius: 25px;
+    font-size: 14px;
     color: #60a5fa;
-    font-weight: 600;
-">🏫 211重点高校</div>
+    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+">
+<span style="font-size: 18px;">🎖️</span>
+211重点高校
+</div>
 <div style="
     background: rgba(34, 197, 94, 0.2);
-    padding: 8px 16px;
-    border-radius: 10px;
-    font-size: 13px;
+    padding: 10px 22px;
+    border-radius: 25px;
+    font-size: 14px;
     color: #34d399;
-    font-weight: 600;
-">🔒 信息安全</div>
+    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+">
+<span style="font-size: 18px;">🔒</span>
+信息安全
+</div>
+<div style="
+    background: rgba(168, 85, 247, 0.2);
+    padding: 10px 22px;
+    border-radius: 25px;
+    font-size: 14px;
+    color: #a78bfa;
+    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+">
+<span style="font-size: 18px;">🔬</span>
+研究型
+</div>
 </div>
 
 </div>
@@ -694,86 +761,91 @@ Cybersecurity 期刊在投
     color: white;
     margin-bottom: 30px;
     font-size: 28px;
-    font-weight: 600;
+    font-weight: 700;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    gap: 12px;
 ">
 <span style="font-size: 32px;">🔭</span>
 <span>Research Interests</span>
 </h2>
 
 <div style="
-    background: linear-gradient(135deg, rgba(99, 102, 241, 0.15), rgba(139, 92, 246, 0.15));
-    border: 1px solid rgba(99, 102, 241, 0.25);
-    border-radius: 20px;
-    padding: 35px;
-    max-width: 750px;
-    text-align: left;
+    background: linear-gradient(135deg, rgba(99, 102, 241, 0.18), rgba(139, 92, 246, 0.18));
+    border: 1px solid rgba(99, 102, 241, 0.3);
+    border-radius: 24px;
+    padding: 40px;
+    max-width: 800px;
     margin-bottom: 50px;
+    box-shadow: 0 15px 50px rgba(99, 102, 241, 0.25);
 ">
 
 <div style="
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    margin-bottom: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 22px;
+    margin-bottom: 30px;
 ">
 
 <div style="
     background: rgba(59, 130, 246, 0.15);
-    border-radius: 14px;
-    padding: 20px;
-    border-left: 4px solid #3b82f6;
+    border-radius: 18px;
+    padding: 25px;
+    border-left: 5px solid #3b82f6;
 ">
-<p style="color: #60a5fa; margin: 0 0 10px 0; font-size: 16px; font-weight: 700;">🧠 机器遗忘理论</p>
-<p style="color: rgba(255, 255, 255, 0.8); margin: 0; font-size: 14px;">高效遗忘算法设计与理论 guarantees</p>
+<div style="font-size: 32px; margin-bottom: 12px;">🧠</div>
+<p style="color: #60a5fa; margin: 0 0 12px 0; font-size: 17px; font-weight: 700;">机器遗忘理论</p>
+<p style="color: rgba(255, 255, 255, 0.8); margin: 0; font-size: 15px; line-height: 1.6;">高效遗忘算法设计与理论 guarantees</p>
 </div>
 
 <div style="
     background: rgba(34, 197, 94, 0.15);
-    border-radius: 14px;
-    padding: 20px;
-    border-left: 4px solid #22c55e;
+    border-radius: 18px;
+    padding: 25px;
+    border-left: 5px solid #22c55e;
 ">
-<p style="color: #34d399; margin: 0 0 10px 0; font-size: 16px; font-weight: 700;">🔐 隐私保护ML</p>
-<p style="color: rgba(255, 255, 255, 0.8); margin: 0; font-size: 14px;">差分隐私、联邦学习隐私保护</p>
+<div style="font-size: 32px; margin-bottom: 12px;">🔐</div>
+<p style="color: #34d399; margin: 0 0 12px 0; font-size: 17px; font-weight: 700;">隐私保护ML</p>
+<p style="color: rgba(255, 255, 255, 0.8); margin: 0; font-size: 15px; line-height: 1.6;">差分隐私、联邦学习隐私保护</p>
 </div>
 
 <div style="
     background: rgba(239, 68, 68, 0.15);
-    border-radius: 14px;
-    padding: 20px;
-    border-left: 4px solid #ef4444;
+    border-radius: 18px;
+    padding: 25px;
+    border-left: 5px solid #ef4444;
 ">
-<p style="color: #f87171; margin: 0 0 10px 0; font-size: 16px; font-weight: 700;">⚔️ 对抗性ML</p>
-<p style="color: rgba(255, 255, 255, 0.8); margin: 0; font-size: 14px;">鲁棒性提升与攻击防御</p>
+<div style="font-size: 32px; margin-bottom: 12px;">⚔️</div>
+<p style="color: #f87171; margin: 0 0 12px 0; font-size: 17px; font-weight: 700;">对抗性ML</p>
+<p style="color: rgba(255, 255, 255, 0.8); margin: 0; font-size: 15px; line-height: 1.6;">鲁棒性提升与攻击防御</p>
 </div>
 
 <div style="
     background: rgba(168, 85, 247, 0.15);
-    border-radius: 14px;
-    padding: 20px;
-    border-left: 4px solid #a855f7;
+    border-radius: 18px;
+    padding: 25px;
+    border-left: 5px solid #a855f7;
 ">
-<p style="color: #a78bfa; margin: 0 0 10px 0; font-size: 16px; font-weight: 700;">🔍 AI安全评估</p>
-<p style="color: rgba(255, 255, 255, 0.8); margin: 0; font-size: 14px;">系统化AI安全评测体系</p>
+<div style="font-size: 32px; margin-bottom: 12px;">🔍</div>
+<p style="color: #a78bfa; margin: 0 0 12px 0; font-size: 17px; font-weight: 700;">AI安全评估</p>
+<p style="color: rgba(255, 255, 255, 0.8); margin: 0; font-size: 15px; line-height: 1.6;">系统化AI安全评测体系</p>
 </div>
 
 </div>
 
 <div style="
-    background: rgba(0, 0, 0, 0.2);
-    border-radius: 12px;
-    padding: 20px;
-    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    padding: 25px;
+    margin-top: 25px;
 ">
 <p style="
-    color: rgba(255, 255, 255, 0.85);
+    color: rgba(255, 255, 255, 0.9);
     margin: 0;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.7;
+    font-weight: 500;
 ">
 <strong style="color: #60a5fa;">未来计划：</strong> 继续在机器遗忘与隐私安全领域深入研究，计划攻读研究生学位，为构建更安全、更可信的AI系统贡献力量。
 </p>
@@ -786,11 +858,11 @@ Cybersecurity 期刊在投
     color: white;
     margin-bottom: 30px;
     font-size: 28px;
-    font-weight: 600;
+    font-weight: 700;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    gap: 12px;
 ">
 <span style="font-size: 32px;">🤝</span>
 <span>Contact & Collaboration</span>
@@ -805,42 +877,44 @@ Cybersecurity 期刊在投
 ">
 
 <a href="mailto:08235752@cumt.edu.cn" style="
-    background: linear-gradient(135deg, rgba(59, 130, 246, 0.2), rgba(99, 102, 241, 0.2));
-    border: 1px solid rgba(59, 130, 246, 0.3);
-    border-radius: 16px;
-    padding: 25px 35px;
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.25), rgba(99, 102, 241, 0.25));
+    border: 1px solid rgba(59, 130, 246, 0.35);
+    border-radius: 20px;
+    padding: 30px 40px;
     text-align: center;
     text-decoration: none;
     transition: all 0.3s ease;
     display: flex;
     align-items: center;
-    gap: 15px;
-    min-width: 280px;
+    gap: 20px;
+    min-width: 300px;
+    box-shadow: 0 10px 40px rgba(59, 130, 246, 0.2);
 ">
-<p style="color: white; margin: 0; font-size: 32px;">📧</p>
+<div style="font-size: 48px;">📧</div>
 <div>
-<p style="color: rgba(255, 255, 255, 0.9); margin: 0; font-size: 16px; font-weight: 700;">Email</p>
-<p style="color: rgba(255, 255, 255, 0.7); margin: 5px 0 0 0; font-size: 14px;">08235752@cumt.edu.cn</p>
+<p style="color: rgba(255, 255, 255, 0.95); margin: 0; font-size: 18px; font-weight: 700;">Email</p>
+<p style="color: rgba(255, 255, 255, 0.7); margin: 8px 0 0 0; font-size: 15px;">08235752@cumt.edu.cn</p>
 </div>
 </a>
 
 <a href="https://github.com/keke2510?tab=repositories" target="_blank" style="
-    background: linear-gradient(135deg, rgba(31, 41, 55, 0.4), rgba(75, 85, 99, 0.4));
-    border: 1px solid rgba(75, 85, 99, 0.5);
-    border-radius: 16px;
-    padding: 25px 35px;
+    background: linear-gradient(135deg, rgba(31, 41, 55, 0.5), rgba(75, 85, 99, 0.5));
+    border: 1px solid rgba(75, 85, 99, 0.6);
+    border-radius: 20px;
+    padding: 30px 40px;
     text-align: center;
     text-decoration: none;
     transition: all 0.3s ease;
     display: flex;
     align-items: center;
-    gap: 15px;
-    min-width: 280px;
+    gap: 20px;
+    min-width: 300px;
+    box-shadow: 0 10px 40px rgba(31, 41, 55, 0.3);
 ">
-<p style="color: white; margin: 0; font-size: 32px;">🔗</p>
+<div style="font-size: 48px;">🔗</div>
 <div>
-<p style="color: rgba(255, 255, 255, 0.9); margin: 0; font-size: 16px; font-weight: 700;">GitHub</p>
-<p style="color: rgba(255, 255, 255, 0.7); margin: 5px 0 0 0; font-size: 14px;">@keke2510</p>
+<p style="color: rgba(255, 255, 255, 0.95); margin: 0; font-size: 18px; font-weight: 700;">GitHub</p>
+<p style="color: rgba(255, 255, 255, 0.7); margin: 8px 0 0 0; font-size: 15px;">@keke2510</p>
 </div>
 </a>
 
@@ -848,33 +922,45 @@ Cybersecurity 期刊在投
 
 <!-- 开放协作 -->
 <div style="
-    background: linear-gradient(135deg, rgba(34, 197, 94, 0.12), rgba(22, 163, 74, 0.12));
+    background: linear-gradient(135deg, rgba(34, 197, 94, 0.15), rgba(22, 163, 74, 0.15));
     border: 1px solid rgba(34, 197, 94, 0.3);
-    border-radius: 18px;
-    padding: 30px;
-    max-width: 750px;
+    border-radius: 24px;
+    padding: 40px;
+    max-width: 800px;
     margin-bottom: 50px;
+    box-shadow: 0 15px 50px rgba(34, 197, 94, 0.2);
 ">
 
-<div style="text-align: center; margin-bottom: 20px;">
-<p style="color: #34d399; font-size: 32px; margin: 0;">🌐</p>
+<div style="text-align: center; margin-bottom: 25px;">
+<div style="font-size: 56px;">🌐</div>
 </div>
 
 <p style="
-    color: rgba(255, 255, 255, 0.9);
-    margin: 0;
-    font-size: 17px;
+    color: rgba(255, 255, 255, 0.95);
+    margin: 0 0 25px 0;
+    font-size: 18px;
     text-align: center;
     line-height: 1.8;
-    font-weight: 500;
+    font-weight: 600;
 ">
-<strong>开放协作</strong>：我对隐私保护机器学习、AI安全评估等领域的研究合作感兴趣。欢迎讨论相关话题、研究想法或潜在的协作机会。
+<strong style="color: #34d399;">开放协作</strong>
 </p>
 
-<div style="display: flex; justify-content: center; gap: 15px; margin-top: 25px; flex-wrap: wrap;">
-<div style="background: rgba(59, 130, 246, 0.2); padding: 8px 16px; border-radius: 20px; font-size: 13px; color: #60a5fa; font-weight: 600;">隐私保护</div>
-<div style="background: rgba(34, 197, 94, 0.2); padding: 8px 16px; border-radius: 20px; font-size: 13px; color: #34d399; font-weight: 600;">机器遗忘</div>
-<div style="background: rgba(168, 85, 247, 0.2); padding: 8px 16px; border-radius: 20px; font-size: 13px; color: #a78bfa; font-weight: 600;">AI安全</div>
+<p style="
+    color: rgba(255, 255, 255, 0.85);
+    margin: 0 0 30px 0;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.7;
+">
+我对隐私保护机器学习、AI安全评估等领域的研究合作感兴趣。欢迎讨论相关话题、研究想法或潜在的协作机会。
+</p>
+
+<div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
+<div style="background: rgba(59, 130, 246, 0.25); padding: 10px 22px; border-radius: 25px; font-size: 14px; color: #60a5fa; font-weight: 700;">隐私保护</div>
+<div style="background: rgba(34, 197, 94, 0.25); padding: 10px 22px; border-radius: 25px; font-size: 14px; color: #34d399; font-weight: 700;">机器遗忘</div>
+<div style="background: rgba(168, 85, 247, 0.25); padding: 10px 22px; border-radius: 25px; font-size: 14px; color: #a78bfa; font-weight: 700;">AI安全</div>
+<div style="background: rgba(239, 68, 68, 0.25); padding: 10px 22px; border-radius: 25px; font-size: 14px; color: #f87171; font-weight: 700;">对抗学习</div>
 </div>
 
 </div>
@@ -882,37 +968,37 @@ Cybersecurity 期刊在投
 <!-- 页脚 -->
 <div style="
     border-top: 1px solid rgba(255, 255, 255, 0.12);
-    padding-top: 35px;
+    padding-top: 40px;
 ">
 
-<div style="display: flex; justify-content: center; gap: 15px; margin-bottom: 20px;">
-<div style="background: rgba(59, 130, 246, 0.2); padding: 10px 20px; border-radius: 25px; font-size: 14px; color: #60a5fa; font-weight: 600;">🔒 Privacy</div>
-<div style="background: rgba(34, 197, 94, 0.2); padding: 10px 20px; border-radius: 25px; font-size: 14px; color: #34d399; font-weight: 600;">🛡️ Security</div>
-<div style="background: rgba(168, 85, 247, 0.2); padding: 10px 20px; border-radius: 25px; font-size: 14px; color: #a78bfa; font-weight: 600;">🧠 AI Safety</div>
+<div style="display: flex; justify-content: center; gap: 15px; margin-bottom: 25px; flex-wrap: wrap;">
+<div style="background: rgba(59, 130, 246, 0.2); padding: 12px 24px; border-radius: 25px; font-size: 15px; color: #60a5fa; font-weight: 700;">🔒 Privacy</div>
+<div style="background: rgba(34, 197, 94, 0.2); padding: 12px 24px; border-radius: 25px; font-size: 15px; color: #34d399; font-weight: 700;">🛡️ Security</div>
+<div style="background: rgba(168, 85, 247, 0.2); padding: 12px 24px; border-radius: 25px; font-size: 15px; color: #a78bfa; font-weight: 700;">🧠 AI Safety</div>
 </div>
 
 <p style="
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.7);
     margin: 0;
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
-    font-weight: 500;
+    font-weight: 600;
 ">
 专注于机器遗忘与隐私安全研究 · 构建可信赖的AI系统
 </p>
 
 <p style="
-    color: rgba(255, 255, 255, 0.5);
-    margin: 15px 0 0 0;
-    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+    margin: 20px 0 0 0;
+    font-size: 15px;
     text-align: center;
 ">
 中国矿业大学（211）| 信息安全专业
 </p>
 
-<div style="text-align: center; margin-top: 25px;">
-<p style="color: rgba(255, 255, 255, 0.4); margin: 0; font-size: 13px;">
-© 2024 | Machine Unlearning & Privacy Security Research
+<div style="text-align: center; margin-top: 30px;">
+<p style="color: rgba(255, 255, 255, 0.5); margin: 0; font-size: 14px;">
+© 2024 Machine Unlearning & Privacy Security Research
 </p>
 </div>
 
@@ -921,8 +1007,14 @@ Cybersecurity 期刊在投
 </div>
 
 <style>
-@keyframes float {
-  0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-20px); }
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
 }
 </style>
