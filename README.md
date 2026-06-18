@@ -85,16 +85,6 @@ I am **Hu Jingchao (胡景超)**, an Information Security researcher at **China 
 
 **💡 Research Value:** Addresses emerging privacy concerns in machine unlearning - a critical yet under-explored area in trustworthy AI development.
 
-## 📊 Research Activity
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=keke2510&theme=nightowl&bg_color=0D1117&line=60A5FA&point=FFFFFF&color=FFFFFF&hide_border=true" alt="Activity Graph" width="100%" style="border-radius: 10px;">
-</div>
-
-<div align="center">
-  <img src="https://github-readme-stats-ebon-delta-95.vercel.app/api?username=keke2510&theme=radical&hide_border=true&bg_color=0D1117&title_color=60A5FA&text_color=FFFFFF&icon_color=F59E0B&show_icons=true&include_all_commits=true" alt="GitHub Stats">
-</div>
-
 ## 🔭 Research Roadmap
 
 ### 🧠 Current Focus Areas
